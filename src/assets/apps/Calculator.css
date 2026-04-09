@@ -1,0 +1,62 @@
+.display-font {
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.calc-body {
+  background: linear-gradient(145deg, #1c1c1e, #111111);
+  border: 1px solid #2a2a2a;
+  box-shadow:
+    0 30px 80px rgba(0, 0, 0, 0.8),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+.screen {
+  background: #0a0a0a;
+  border: 1px solid #1e1e1e;
+  box-shadow: inset 0 4px 20px rgba(0, 0, 0, 0.9);
+}
+
+.btn-num {
+  background: linear-gradient(145deg, #2a2a2e, #222226);
+  border: 1px solid #333;
+  color: #e8e8e8;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.06);
+  transition: background 0.1s, transform 0.08s;
+}
+.btn-num:hover  { background: linear-gradient(145deg, #333338, #28282c); border-color: #444; }
+.btn-num:active { transform: translateY(2px); }
+
+.btn-op {
+  background: linear-gradient(145deg, #e67e22, #d35400);
+  border: 1px solid #e67e22;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(230,126,34,0.3);
+  transition: background 0.1s, transform 0.08s;
+}
+.btn-op:hover  { background: linear-gradient(145deg, #f39c12, #e67e22); }
+.btn-op:active { transform: translateY(2px); }
+
+.active-op {
+  outline: 2px solid rgba(230, 126, 34, 0.85);
+  outline-offset: 1px;
+}
+
+.btn-clear {
+  background: linear-gradient(145deg, #c0392b, #962d22);
+  border: 1px solid #c0392b;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(192,57,43,0.3);
+  transition: background 0.1s, transform 0.08s;
+}
+.btn-clear:hover  { background: linear-gradient(145deg, #e74c3c, #c0392b); }
+.btn-clear:active { transform: translateY(2px); }
+
+.btn-eq {
+  background: linear-gradient(145deg, #27ae60, #1e8449);
+  border: 1px solid #27ae60;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(39,174,96,0.35);
+  transition: background 0.1s, transform 0.08s;
+}
+.btn-eq:hover  { background: linear-gradient(145deg, #2ecc71, #27ae60); }
+.btn-eq:active { transform: translateY(2px); }
